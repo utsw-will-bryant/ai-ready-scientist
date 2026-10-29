@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Tool-agnostic prompt specification for recreating the supplied vertical GLP-1 brain-and-gut educational infographic.",
+  "use_case": "scientific_editorial_infographic",
+  "output": {
+    "aspect_ratio": "2:3",
+    "orientation": "portrait",
+    "recommended_dimensions": ["1365x2048", "2048x3072"],
+    "intended_use": "educational article graphic or vertical presentation handout"
+  },
+  "prompt": "Create a polished vertical medical infographic on a pale warm-gray paper background, titled 'GLP-1’s Role in the Brain.' Place a large bold black sans-serif title at the top, followed by a compact explanatory paragraph and a thin white horizontal divider. Below it, depict a calm, step-by-step story of how GLP-1 signals fullness. Use fine ink-like outlines, delicate pale peach and blush anatomical watercolor shading, translucent lavender signaling glows, purple molecular particles, and restrained black sans-serif labels. The layout is airy, editorial, and scientifically respectful—not photorealistic. At top left, place a full sandwich on a plate labeled 'Start eating'; at top right, place a partly eaten sandwich on a plate labeled 'Stop eating.' Use black directional arrows between the food states and the body pathway. In the upper-left middle, show a stylized stomach and coiled small intestine, labeled 'Gut,' releasing several faceted purple GLP-1 particles into the bloodstream. In the lower-left, draw a long bright yellow vagus nerve with fine purple parallel lines, curving from the gut toward the brain stem; label it 'Vagus nerve.' In the lower-center, show a side-view brain with a clearly visible brain stem, labeled 'Brain stem.' Show GLP-1 particles near the brain stem and fine signaling arcs spreading upward. In the upper-right middle, show a second side-view brain with translucent lavender receptor signaling spread across it and three red-orange octagonal STOP signs placed over separate brain areas. Add a short purple vertical arrow above that brain leading toward the feeling-full explanation. Organize the mechanism with black numbered circles 1, 2a, 2b, 3, 4, and 5, connected with purple or yellow flow arrows. At the bottom, separated by a thin dotted rule, include a 'HOW DOES OZEMPIC FIT IN?' explanatory panel and two faceted purple-blue molecule illustrations labeled 'Semaglutide' and 'GLP-1.' Use the exact text supplied in the text_requirements section, large enough to read. Preserve all five pathway stages, the 2a and 2b split, and the medicine comparison.",
+  "composition": {
+    "top_section": {
+      "title_position": "top-left",
+      "body_copy_position": "below title, full-width",
+      "divider": "thin white horizontal rule below body copy"
+    },
+    "main_mechanism": [
+      {
+        "step": "Start eating",
+        "position": "upper-left"
+      },
+      {
+        "step": "Gut releases GLP-1",
+        "position": "left-middle"
+      },
+      {
+        "step": "Vagus nerve and bloodstream routes",
+        "position": "left-lower and center"
+      },
+      {
+        "step": "Brain stem",
+        "position": "lower-center"
+      },
+      {
+        "step": "Brain-wide receptor activation",
+        "position": "right-middle"
+      },
+      {
+        "step": "Feeling full / stop eating",
+        "position": "upper-right"
+      }
+    ],
+    "bottom_section": {
+      "position": "bottom, below dotted divider",
+      "content": "Semaglutide versus natural GLP-1 comparison"
+    }
+  },
+  "text_requirements": {
+    "title": "GLP-1’s Role in the Brain",
+    "intro_paragraph": "GLP-1 is one of many important hormones produced in the gut in response to eating food. It has two well-established roles in the body: signaling to the pancreas to produce insulin and signaling to the brain to influence satiety and food intake. To communicate with the brain, GLP-1 released from the intestines binds to the vagus nerve—a long cranial nerve that shuttles signals from the gut and other organs to the brain stem. Once it arrives, neurons activate various brain regions, including those that cause people to feel full and stop eating. Researchers have found that neurons in the brain stem also produce GLP-1. Evidence suggests that GLP-1 performs similar roles in the gut and in the brain but in different ways.",
+    "food_labels": ["Start eating", "Stop eating"],
+    "anatomy_labels": ["Gut", "GLP-1", "Vagus nerve", "Brain stem"],
+    "numbered_steps": [
+      {
+        "marker": "1",
+        "text": "The gut releases GLP-1 into the bloodstream when the person eats."
+      },
+      {
+        "marker": "2a",
+        "text": "GLP-1—and other satiety-related hormones—binds to the vagus nerve, prompting it to relay signals to the brain stem."
+      },
+      {
+        "marker": "2b",
+        "text": "Some research suggests that a small amount of GLP-1 may breach the blood-brain barrier and enter the brain directly."
+      },
+      {
+        "marker": "3",
+        "text": "Neurons in the brain stem (some of which also synthesize GLP-1) activate other areas of the brain that are involved in energy-balance control."
+      },
+      {
+        "marker": "4",
+        "text": "GLP-1 binds to receptors throughout the brain, and appetite-suppression signals spread."
+      },
+      {
+        "marker": "5",
+        "text": "These signals cause the person to feel full."
+      }
+    ],
+    "medicine_panel": {
+      "heading": "HOW DOES OZEMPIC FIT IN?",
+      "body": "Ozempic is a drug called semaglutide—a synthetic mimic of GLP-1 with a bulkier structure that doesn’t break down as easily and lasts far longer in the body. Semaglutide can cause weight loss by causing people to feel full and therefore eat less.",
+      "molecule_labels": ["Semaglutide", "GLP-1"]
+    },
+    "legibility": "All required text must be high contrast, correctly spelled, and laid out with enough whitespace to be readable at full image size."
+  },
+  "visual_style": {
+    "medium": "editorial medical illustration with ink outlines and gentle watercolor-like digital shading",
+    "palette": {
+      "background": "warm light gray",
+      "anatomy": "pale peach, blush, and muted rose outlines",
+      "signals": "lavender and soft violet",
+      "vagus_nerve": "bright yellow with purple contour lines",
+      "stop_symbols": "red-orange with white STOP text",
+      "typography": "black and charcoal"
+    },
+    "lighting": "subtle diffuse glow around GLP-1 particles and signaling pathways",
+    "typography": "clean bold sans serif for headings and labels; readable editorial sans serif for explanatory text"
+  },
+  "scientific_constraints": [
+    "Show GLP-1 being released from the intestine into circulation.",
+    "Show both vagus-nerve signaling and a separate possible direct blood-brain route.",
+    "Show the vagus nerve connecting to the brain stem.",
+    "Show brain-stem signaling spreading through brain regions involved in appetite and energy balance.",
+    "Frame the bottom medicine comparison as illustrative; do not add claims beyond the supplied text."
+  ],
+  "negative_prompt": "landscape orientation, missing numbered step, missing 2a or 2b pathway, photorealistic surgery, gore, 3D cartoon characters, excessive neon color, dark background, tiny or illegible text, misspellings, labels covering anatomy, logo, watermark, publisher name, inaccurate anatomy, duplicate text, cropped bottom medicine panel"
+}
