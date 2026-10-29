@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Recreate a clean scientific infographic explaining direct and indirect cooperation between clonal tumor cell populations in the tumor microenvironment.",
+  "output": {
+    "aspect_ratio": "1.45:1",
+    "orientation": "landscape",
+    "recommended_dimensions": "2048x1414",
+    "format": "high-resolution PNG or SVG-style infographic"
+  },
+  "style": {
+    "overall": "Minimal, publication-quality biomedical infographic; flat vector illustration with subtly organic, hand-drawn cell edges.",
+    "background": "white",
+    "typography": "Bold black sans-serif for title and primary section headings; medium-weight gray sans-serif for subheadings; clean scientific presentation layout.",
+    "color_palette": {
+      "dark_tumor_clone": "#B94743",
+      "dark_tumor_nucleus": "#982E2E",
+      "light_tumor_clone": "#F3A0A3",
+      "light_tumor_nucleus": "#CE7477",
+      "vascular_pink": "#FCE7E7",
+      "vascular_outline": "#B87868",
+      "caf_orange": "#F58B3A",
+      "lymphocyte_blue": "#9AA5E7",
+      "lymphocyte_nucleus": "#8582CB",
+      "text_gray": "#6A6A6A",
+      "divider_gray": "#C8C8C8"
+    }
+  },
+  "layout": {
+    "header": {
+      "height_percent": 19,
+      "background": "very light warm gray",
+      "title": {
+        "text": "Cooperation by Clonal Tumor Cell\\nPopulations in the TME",
+        "position": "upper left",
+        "alignment": "left",
+        "font": "bold sans-serif",
+        "color": "black",
+        "size": "large"
+      },
+      "legend": {
+        "position": "upper right",
+        "shape": "rounded white rectangle with thin medium-gray border",
+        "title": "Clonal tumor\\ncell populations",
+        "labels": [
+          "Population 1",
+          "Population 2"
+        ],
+        "visual": "A small irregular cluster of overlapping tumor cells in dark red, dusty rose, pale pink, and beige tones. Use thin horizontal leader lines with dark dots to identify dark-red Population 1 and light-pink Population 2."
+      }
+    },
+    "main_content": {
+      "top_margin": "generous white space below header",
+      "columns": [
+        {
+          "position": "left half",
+          "heading": "DIRECT",
+          "heading_style": "bold uppercase black sans-serif, centered",
+          "subsections": [
+            {
+              "label": "Paracrine",
+              "label_style": "bold medium-gray sans-serif",
+              "visual": "Two large irregular tumor cells side by side. Dark-red Population 1 cell on the left and light-pink Population 2 cell on the right. Both have small scattered cytoplasmic dots and darker irregular central nuclei. Above the cells, show a curved dark-red arrow traveling from left to right, surrounded by scattered red signaling particles."
+            },
+            {
+              "label": "Juxtacrine",
+              "label_style": "bold medium-gray sans-serif",
+              "visual": "Repeat the dark-red tumor cell on the left and light-pink tumor cell on the right. Connect their touching-facing membranes with a straight dark-brown horizontal line and a small receptor-ligand interaction symbol at center: paired circular, maroon membrane components."
+            }
+          ]
+        },
+        {
+          "position": "right half",
+          "heading": "INDIRECT",
+          "heading_style": "bold uppercase black sans-serif, centered",
+          "subheading": "Microenvironment-mediated",
+          "subheading_style": "bold medium-gray sans-serif, centered",
+          "panel": {
+            "shape": "wide pale blush rectangular field",
+            "content": [
+              "At left, a compact cluster of three overlapping dark-red Population 1 tumor cells.",
+              "At right, a compact cluster of three overlapping light-pink Population 2 tumor cells.",
+              "A curving tumor vasculature network crosses the panel and lower edge: pale pink vessel interiors with double muted-brown outlines.",
+              "Between tumor populations, place an orange elongated cancer-associated fibroblast labeled CAF in brown text.",
+              "Below CAF, place a round blue lymphocyte with a darker lavender-blue central nucleus, labeled Lymphocyte in blue text.",
+              "Use curved black directional arrows from the dark-red tumor-cell cluster toward the CAF/lymphocyte area, then another curved arrow from CAF area toward the light-pink tumor-cell cluster.",
+              "Label the lower vascular structures Tumor\\nvasculature in muted brown."
+            ]
+          }
+        }
+      ],
+      "divider": {
+        "position": "vertical center between direct and indirect columns",
+        "style": "thin light-gray dashed line"
+      }
+    }
+  },
+  "cell_design": {
+    "tumor_cells": "Large, rounded, irregularly scalloped cell silhouettes with a thin darker outline. Add a darker, soft-edged irregular nucleus and sparse tiny dot texture throughout cytoplasm. Keep the shapes approachable and diagrammatic, not photorealistic.",
+    "population_1": "Dark brick-red cytoplasm with deep maroon nucleus.",
+    "population_2": "Pale salmon-pink cytoplasm with muted rose nucleus."
+  },
+  "prompt": "Create a landscape biomedical infographic titled 'Cooperation by Clonal Tumor Cell Populations in the TME.' Use a white background, a shallow very-light-gray header band, and clean modern scientific presentation design. The title is large, bold, black, left aligned in the upper-left corner. Put a rounded legend box in the upper-right showing a multicolor clonal tumor-cell cluster, with leader lines labeling Population 1 and Population 2. Below, split the diagram into DIRECT on the left and INDIRECT on the right, separated by a thin vertical light-gray dashed divider. In the DIRECT column, show Paracrine signaling: a dark-red irregular tumor cell sending red particles and a curved arrow toward a light-pink tumor cell. Below, show Juxtacrine signaling: the same two cell types communicating by a membrane-contact receptor-ligand bridge. In the INDIRECT column, add the subheading Microenvironment-mediated and a large pale blush tissue panel. Show a cluster of dark-red tumor cells at left, a cluster of pale-pink tumor cells at right, branching pink tumor vasculature, an orange CAF cell, and a round blue lymphocyte. Curved black arrows show communication through these microenvironment components. Use organic, hand-drawn cell contours; flat vector color; subtle dot texture; dark outlines; generous whitespace; restrained red, pink, orange, blue, and brown palette. Make the result suitable for a scientific conference slide or journal figure.",
+  "negative_prompt": "Photorealism, 3D rendering, glossy effects, crowded composition, gradients, neon colors, cartoon facial features, microscopic realism, excessive labels, illegible text, misspelled scientific terms, decorative icons, heavy shadows, busy background, low contrast.",
+  "text_accuracy_note": "Generative image models often distort small text. For publication use, generate the diagram without text or with placeholder text, then add final labels and title in PowerPoint, Illustrator, Figma, BioRender, or another layout tool."
+}
