@@ -1,0 +1,218 @@
+{
+  "title": "Minimal Receptor-to-Gene-Expression Signaling Diagram",
+  "use_case": "medical education diagram",
+  "audience": "Medical students familiar with ligand, receptor, kinase, phosphorylation, transcription factor, and gene-expression terminology",
+  "format": {
+    "canvas": "16:9 landscape",
+    "style": "clean flat vector infographic",
+    "background": "white",
+    "visual_density": "minimal",
+    "typography": "bold, high-contrast sans-serif"
+  },
+  "primary_prompt": "Create a concise, medically accurate left-to-right vector diagram of cell signaling. Show ligand L binding membrane receptor R, receptor R recruiting kinase K, kinase K phosphorylating transcription factor T, phosphorylated T entering the nucleus through a nuclear pore, and T increasing transcription of Gene G to produce mRNA. Use simple labeled shapes, distinct colors, thick directional arrows, and five numbered steps. Keep all text large and legible. Use only the essential pathway components.",
+  "layout": {
+    "flow_direction": "left to right",
+    "regions": [
+      {
+        "name": "Extracellular space",
+        "location": "upper left",
+        "contents": "teal circular ligand labeled L"
+      },
+      {
+        "name": "Plasma membrane",
+        "location": "horizontal band across upper-middle diagram",
+        "contents": "blue transmembrane receptor labeled R"
+      },
+      {
+        "name": "Cytoplasm",
+        "location": "below membrane and left of nucleus",
+        "contents": "orange kinase K and green transcription factor T"
+      },
+      {
+        "name": "Nucleus",
+        "location": "large violet circle or oval on right",
+        "contents": "nuclear pore, phosphorylated transcription factor T, DNA, Gene G, and mRNA"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "number": 1,
+      "caption": "Binds",
+      "visual": "Ligand L binds the extracellular domain of receptor R."
+    },
+    {
+      "number": 2,
+      "caption": "Recruits",
+      "visual": "Activated receptor R recruits kinase K on the cytoplasmic side of the membrane."
+    },
+    {
+      "number": 3,
+      "caption": "Phosphorylates",
+      "visual": "Kinase K transfers a yellow phosphate symbol labeled P to transcription factor T."
+    },
+    {
+      "number": 4,
+      "caption": "Enters nucleus",
+      "visual": "Phosphorylated T moves through a visible nuclear pore into the nucleus."
+    },
+    {
+      "number": 5,
+      "caption": "Increases expression",
+      "visual": "T acts at a highlighted DNA region labeled Gene G; show an arrow to increased pink mRNA strands."
+    }
+  ],
+  "labels": [
+    "Ligand",
+    "R",
+    "K",
+    "T",
+    "P",
+    "Plasma membrane",
+    "Cytoplasm",
+    "Nucleus",
+    "Gene G",
+    "mRNA",
+    "1. Binds",
+    "2. Recruits",
+    "3. Phosphorylates",
+    "4. Enters nucleus",
+    "5. Increases expression"
+  ],
+  "color_palette": {
+    "ligand": "#14B8A6",
+    "receptor": "#2563EB",
+    "kinase": "#F97316",
+    "transcription_factor": "#22C55E",
+    "phosphate": "#FACC15",
+    "nucleus": "#EDE9FE",
+    "nucleus_outline": "#7C3AED",
+    "DNA": "#2563EB and #EC4899",
+    "mRNA": "#DB2777",
+    "arrows_and_text": "#334155"
+  },
+  "accuracy_constraints": [
+    "Ligand binding occurs outside the cell.",
+    "Receptor R spans the plasma membrane.",
+    "Kinase K is recruited to the cytoplasmic face of receptor R.",
+    "T is phosphorylated before nuclear entry.",
+    "T enters through a nuclear pore.",
+    "Gene G and mRNA are inside the nucleus.",
+    "Use one continuous pathway with arrows that do not cross."
+  ],
+  "negative_prompt": "No 3D rendering, no photorealism, no extra pathways, no unrelated organelles, no dense explanatory paragraphs, no decorative molecular clutter, no logos, no watermark, no tiny labels, no misspelled text.",
+  "refinement_options": {
+    "more_minimal": "Remove the step captions and retain only 1–5, L, R, K, T, P, Gene G, and mRNA.",
+    "presentation_ready": "Increase whitespace around the diagram and reserve a 10 percent margin on every side.",
+    "accessible_version": "Use strong contrast, do not depend on color alone, and use labels inside or directly beside every pathway component.",
+    "more_mechanistic": "Add ATP to ADP beside K during phosphorylation and indicate activated R with a small phosphorylation marker."
+  }
+}
+Today 5:28 PM
+Improve this diagram so that it is more visually interesting, for presentation at an industry conference.  Make sure the legend does not cover the nucleus shape, for example.  Shapes can have interesting textures for visual interest, but don't overdo it.
+
+Updated the conference-ready diagram with restrained gradients, subtle texture, depth, and an unobstructed legend beneath the nucleus.
+
+Open the revised SVG
+
+Great!  Create a JSON prompt for the SVG just created that would allow a user to reproduce and refine this image in any generative AI model  
+{
+  "title": "Conference-Ready Receptor-to-Gene Expression Signaling Diagram",
+  "use_case": "Industry conference presentation visual",
+  "audience": "Medical, scientific, and biopharma professionals",
+  "canvas": {
+    "aspect_ratio": "16:10 landscape",
+    "recommended_size": "1600 x 1000 pixels",
+    "background": "clean white with a very subtle pale-blue to pale-lavender diagonal gradient"
+  },
+  "primary_prompt": "Create a polished, conference-ready scientific vector infographic illustrating a minimal cell-signaling cascade from ligand binding to gene expression. Use a left-to-right layout with five numbered steps: ligand L binds receptor R; activated R recruits kinase K; K phosphorylates transcription factor T; phosphorylated T enters the nucleus through a nuclear pore; T increases transcription of Gene G, producing mRNA. The diagram must be medically accurate, easy to scan on a presentation slide, and visually sophisticated without becoming dense or decorative.",
+  "composition": {
+    "title_area": "Top center in a softly rounded white panel. Title: Ligand binding activates gene expression. Subtitle: A minimal receptor-to-transcription signaling cascade.",
+    "cell_layout": "Show extracellular space in the upper-left, a horizontal plasma membrane across the upper-middle portion, cytoplasm below the membrane, and a large nucleus on the right.",
+    "flow_direction": "Left to right with thick, unambiguous arrows that do not cross.",
+    "nucleus": "Large violet oval on the right side, containing a visible nuclear pore, phosphorylated T, a short DNA segment, highlighted Gene G, and pink mRNA strands.",
+    "legend": "Place a separate rounded white legend card below all biological structures, entirely outside and below the nucleus. Include P = phosphate and an arrow labeled activation / movement. Do not allow the legend to overlap the nucleus or any pathway elements."
+  },
+  "pathway_steps": [
+    {
+      "number": 1,
+      "caption": "Binds",
+      "description": "A glowing teal spherical ligand labeled L appears outside the cell and binds a blue transmembrane receptor labeled R."
+    },
+    {
+      "number": 2,
+      "caption": "Recruits",
+      "description": "The activated receptor R recruits a round orange kinase labeled K on the cytoplasmic side of the plasma membrane."
+    },
+    {
+      "number": 3,
+      "caption": "Phosphorylates",
+      "description": "Kinase K transfers a bright yellow phosphate marker labeled P to a green transcription factor labeled T."
+    },
+    {
+      "number": 4,
+      "caption": "Enters nucleus",
+      "description": "Phosphorylated T moves through a prominent nuclear pore into the nucleus."
+    },
+    {
+      "number": 5,
+      "caption": "Increases expression",
+      "description": "Inside the nucleus, T acts at a highlighted DNA region labeled Gene G. A magenta arrow leads from Gene G to several pink mRNA strands, indicating increased transcription."
+    }
+  ],
+  "labels": [
+    "Ligand",
+    "R",
+    "K",
+    "T",
+    "P",
+    "Plasma membrane",
+    "Cytoplasm",
+    "Nucleus",
+    "Gene G",
+    "mRNA",
+    "1. Binds",
+    "2. Recruits",
+    "3. Phosphorylates",
+    "4. Enters nucleus",
+    "5. Increases expression"
+  ],
+  "visual_style": {
+    "medium": "High-quality editable vector infographic",
+    "look_and_feel": "Modern scientific communication, refined corporate-conference aesthetic, clean and authoritative",
+    "shapes": "Use simple geometric biomolecular forms with soft dimensionality, subtle gradients, fine dot texture, and restrained drop shadows",
+    "texture_rule": "Add very light dot or grain texture inside selected pathway components and the nucleus only. Avoid visual noise.",
+    "typography": "Bold dark-navy sans-serif text with high contrast and strong slide-readability",
+    "spacing": "Use generous whitespace and clear grouping; pathway components should feel connected but never crowded"
+  },
+  "color_palette": {
+    "background": "#F8FBFF to #F7F4FF",
+    "ligand": "#14B8A6",
+    "receptor": "#2563EB",
+    "kinase": "#F97316",
+    "transcription_factor": "#22C55E",
+    "phosphate": "#FACC15",
+    "nucleus": "#EDE9FE",
+    "nucleus_outline": "#7C3AED",
+    "dna": "#2563EB and #EC4899",
+    "mRNA": "#DB2777",
+    "text_and_arrows": "#334155"
+  },
+  "accuracy_constraints": [
+    "The ligand binds the extracellular side of receptor R.",
+    "Receptor R spans the plasma membrane.",
+    "Kinase K is on the cytoplasmic side of the receptor.",
+    "Phosphorylation of T occurs before nuclear entry.",
+    "T enters through a nuclear pore.",
+    "Gene G and mRNA are shown inside the nucleus.",
+    "Show a single continuous signaling pathway."
+  ],
+  "negative_prompt": "No photorealism, no microscopic cell-detail overload, no extra pathways, no crossed arrows, no decorative molecular clutter, no legend overlapping the nucleus, no tiny unreadable text, no dense paragraphs, no logos, no watermark, no misspelled labels.",
+  "refinement_controls": {
+    "more_executive": "Reduce labels to L, R, K, T, P, Gene G, and mRNA; retain numbered stages only.",
+    "more_technical": "Add ATP-to-ADP conversion beside K during phosphate transfer and add an activation glow to receptor R.",
+    "more_minimal": "Remove the subtitle, membrane-region labels, and legend sentence; retain only essential component labels.",
+    "more_visual_depth": "Slightly strengthen gradients and shadows while preserving a flat vector infographic appearance.",
+    "accessibility": "Maintain strong text-to-background contrast, use labels rather than color alone to communicate identity, and keep text at presentation-readable sizes."
+  }
+}
