@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Tool-agnostic image-generation specification for a 16:9 GLP-1 educational infographic.",
+  "use_case": "scientific_educational_infographic",
+  "output": {
+    "aspect_ratio": "16:9",
+    "orientation": "landscape",
+    "recommended_dimensions": [
+      "1920x1080",
+      "2560x1440"
+    ],
+    "intended_use": "PowerPoint slide or conference presentation"
+  },
+  "prompt": "Create an original, polished 16:9 landscape medical infographic titled 'How GLP-1 Signals Fullness.' Use a bright, airy pale-blue-to-cream gradient background and a left-to-right information flow. In the center-left, show a semi-transparent adult torso with an anatomically respectful stomach and small intestine. Depict luminous purple GLP-1 particles released from the intestine, traveling through a glowing red-and-blue bloodstream path and along a gold-and-lavender vagus nerve to a large side-view brain at center-right. Show brain-stem structures, purple signaling particles, and a circular close-up of a GLP-1 receptor on a brain cell. Across the top, place five large numbered callouts with clear, readable text: '1 Eating prompts the gut to release GLP-1'; '2a Signals activate the vagus nerve'; '2b Some GLP-1 may enter the brain directly'; '3 Brain-stem neurons relay satiety signals'; '4 GLP-1 receptors spread appetite-suppression signals'; '5 The brain signals: feeling full.' At the upper right, show an adult woman in side profile facing right, with warm medium skin, shoulder-length wavy dark-brown hair, a muted teal top, a gentle confident expression, and a softly glowing semi-transparent anatomical brain visible in her head. Use this figure to represent the feeling-full outcome. At lower right, include a clean bordered panel titled 'Why medicines can last longer' with the sentence 'Semaglutide is designed to persist longer than natural GLP-1.' Illustrate natural GLP-1 as several small purple spheres and semaglutide as a larger, protective-looking clustered purple molecular form. Use elegant leader lines, rounded white callout cards, legible dark-navy typography, and ample whitespace. Visual treatment: original warm cinematic 3D animated-film aesthetic, expressive rounded organic forms, soft studio lighting, translucent materials, subtle depth, and a refined adult-learning tone. Color palette: coral and peach anatomy, lavender signaling particles, gold nerve pathways, deep-blue text, teal accents, pale-blue background.",
+  "layout": {
+    "title": {
+      "text": "How GLP-1 Signals Fullness",
+      "position": "top-left",
+      "style": "large, bold, dark navy sans serif"
+    },
+    "major_elements": [
+      {
+        "element": "meal icon",
+        "position": "far left, upper third",
+        "role": "starting condition"
+      },
+      {
+        "element": "semi-transparent torso with gut anatomy",
+        "position": "left half",
+        "role": "GLP-1 origin"
+      },
+      {
+        "element": "bloodstream and vagus nerve pathways",
+        "position": "from lower-left gut to center-right brain",
+        "role": "signal routes"
+      },
+      {
+        "element": "side-view brain with visible brain stem",
+        "position": "upper center-right",
+        "role": "satiety signaling destination"
+      },
+      {
+        "element": "GLP-1 receptor close-up",
+        "position": "right of brain",
+        "role": "receptor-binding explanation"
+      },
+      {
+        "element": "adult woman with glowing brain",
+        "position": "far upper-right",
+        "role": "feeling-full outcome"
+      },
+      {
+        "element": "natural GLP-1 versus semaglutide comparison panel",
+        "position": "lower-right",
+        "role": "longer-lasting medicine concept"
+      }
+    ]
+  },
+  "text_requirements": {
+    "exact_text": [
+      "How GLP-1 Signals Fullness",
+      "1 Eating prompts the gut to release GLP-1",
+      "2a Signals activate the vagus nerve",
+      "2b Some GLP-1 may enter the brain directly",
+      "3 Brain-stem neurons relay satiety signals",
+      "4 GLP-1 receptors spread appetite-suppression signals",
+      "5 The brain signals: feeling full",
+      "Stomach",
+      "Small intestine",
+      "GLP-1",
+      "Vagus nerve",
+      "Bloodstream",
+      "Brain stem",
+      "GLP-1 receptor (on brain cells)",
+      "Why medicines can last longer",
+      "Semaglutide is designed to persist longer than natural GLP-1.",
+      "Natural GLP-1",
+      "Semaglutide (a longer-lasting GLP-1 mimic)"
+    ],
+    "legibility": "Use large, high-contrast typography. Never substitute, misspell, crop, or obscure the listed text."
+  },
+  "scientific_constraints": [
+    "GLP-1 should visibly originate in the gut.",
+    "The vagus nerve should connect the gut to the brain stem.",
+    "The bloodstream should be a distinct route from the vagus nerve.",
+    "The brain and receptor close-up should clearly represent appetite or satiety signaling.",
+    "The medicine comparison should be illustrative and should not claim guaranteed outcomes."
+  ],
+  "style_constraints": [
+    "Use an original, warm 3D animated-feature visual language; do not imitate a specific studio, film, character, or artist.",
+    "Keep the tone sophisticated, friendly, and suitable for adult medical education.",
+    "Use polished soft lighting, subtle glow, rounded forms, and rich but controlled color.",
+    "Avoid photorealism, gore, clinical dissection imagery, childish cartoon styling, logos, and watermarks."
+  ],
+  "negative_prompt": "portrait orientation, crowded layout, tiny text, unreadable text, misspellings, cropped labels, duplicate steps, generic blue silhouette, child, sad expression, medical logo, watermark, brand logo, copy of an existing publication, imitation of a named studio or character, photorealistic surgery, gore, unsupported weight-loss claim"
+}
