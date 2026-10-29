@@ -1,0 +1,64 @@
+{
+  "request_id": "med-illus-2026-1027",
+  "model_configuration": {
+    "engine": "medical-diffusion-v4",
+    "temperature": 0.1,
+    "seed": 42109,
+    "strict_mode": true
+  },
+  "anatomical_accuracy_controls": {
+    "system_layer": "human_adult_female",
+    "region": "thorax",
+    "primary_structures": [
+      {
+        "name": "heart",
+        "view": "anterior_interior_cutaway",
+        "fidelity": "textbook_anatomical",
+        "pathology_present": false
+      },
+      {
+        "name": "myocardium",
+        "state": "healthy",
+        "thickness_ratio": "standard_1.3cm"
+      }
+    ],
+    "proportional_fidelity": "high",
+    "allow_artistic_license": false
+  },
+  "style_and_medium": {
+    "render_type": "vector_illustration",
+    "aesthetic": "clean_clinical",
+    "lighting": "ambient_cross_section",
+    "color_palette": {
+      "preset": "standard_medical_atlas",
+      "oxygenated_blood": "#DE2626",
+      "deoxygenated_blood": "#2B6CB0",
+      "tissue_background": "#F7FAFC"
+    },
+    "background_opacity": 0.0
+  },
+  "labels_and_annotations": {
+    "render_text_layers": false,
+    "generate_anchor_points": true,
+    "anchor_targets": [
+      "left_ventricle",
+      "right_ventricle",
+      "aorta",
+      "superior_vena_cava"
+    ]
+  },
+  "ethical_and_compliance_filters": {
+    "patient_privacy": {
+      "de_identification_mode": "strict",
+      "block_synthetic_phi": true
+    },
+    "bias_and_diversity": {
+      "skin_tone_scale": "fitzpatrick_type_3",
+      "neutral_representation": true
+    },
+    "copyright_protection": {
+      "block_artist_mimicry": true,
+      "watermark_embedding": "invisible_steganographic"
+    }
+  }
+}
