@@ -1,0 +1,151 @@
+{
+  "prompt": {
+    "subject": {
+      "primary_subject": "Anthropomorphic tabby cat performing as a professional nightclub DJ",
+      "appearance": "Realistic gray-and-black striped fur with extremely detailed individual hairs, whiskers, ears, paws, and facial features",
+      "wardrobe": [
+        "Oversized black professional DJ headphones",
+        "Dark reflective sunglasses",
+        "Fitted black zip-up hoodie",
+        "Small white paw-print emblem on the chest"
+      ],
+      "pose": {
+        "position": "Front and center behind a professional DJ controller and mixing console",
+        "left_paw": "Actively interacting with the illuminated turntable platter or nearby controls",
+        "right_paw": "Adjusting mixer controls, knobs, or faders",
+        "intent": "The cat should convincingly appear to be actively mixing music rather than simply posing behind DJ equipment"
+      }
+    },
+    "dj_equipment": {
+      "description": "Large professional DJ controller filling much of the foreground",
+      "elements": [
+        "Two large illuminated jog wheels",
+        "Multiple mixer channels",
+        "Rotary control knobs",
+        "Volume faders",
+        "Crossfader",
+        "Performance pads",
+        "Switches",
+        "Audio cables",
+        "Colorful LED indicators"
+      ],
+      "lighting_colors": [
+        "Blue",
+        "Cyan",
+        "Orange",
+        "Green",
+        "Purple",
+        "White"
+      ],
+      "style": "Realistic, complex, expensive-looking, functional professional equipment rather than toy-like equipment"
+    },
+    "laptop": {
+      "position": "Left side of the DJ booth",
+      "visibility": "Partially visible from the back",
+      "decoration": "Playful cat-themed sticker or paw-print graphic"
+    },
+    "environment": {
+      "location": "Packed nightclub",
+      "audience": "A crowd composed entirely of realistic cats",
+      "audience_behavior": [
+        "Cats raising their paws in the air",
+        "Cats gathered closely around the DJ booth",
+        "Some audience cats wearing sunglasses"
+      ],
+      "atmosphere": [
+        "Concert haze",
+        "Volumetric lighting",
+        "Reflected colored light",
+        "Nightclub ambience"
+      ],
+      "disco_ball": {
+        "position": "Large mirrored disco ball suspended above and behind the DJ cat",
+        "effect": "Reflecting highlights throughout the nightclub"
+      },
+      "signage": "Colorful neon club signage with playful cat and electronic-music themes"
+    },
+    "lighting": {
+      "style": "Highly cinematic nightclub and concert lighting",
+      "primary_colors": [
+        "Electric blue",
+        "Violet",
+        "Purple",
+        "Magenta",
+        "Cyan"
+      ],
+      "effects": [
+        "Purple and blue rim lighting on the cat's fur",
+        "Subtle nightclub reflections in the sunglasses",
+        "Realistic reflections on the DJ equipment",
+        "Reflections on the mirrored disco ball",
+        "Visible beams of light passing through atmospheric haze",
+        "Natural shadows",
+        "Rich contrast",
+        "Saturated but controlled neon colors"
+      ]
+    },
+    "composition": {
+      "orientation": "Square",
+      "subject_placement": "Centered hero subject",
+      "camera_position": "Audience side of the DJ booth",
+      "camera_angle": "Slightly low and close perspective",
+      "lens_style": "Moderately wide-angle",
+      "foreground": "Large DJ controller and mixing console",
+      "middle_ground": "DJ cat with clearly visible paws, face, sunglasses, headphones, and hoodie",
+      "background": "Partying feline nightclub audience, lighting equipment, neon signs, and disco ball",
+      "empty_space": "None"
+    },
+    "depth_of_field": {
+      "style": "Shallow-to-moderate cinematic depth of field",
+      "sharp_elements": [
+        "DJ cat",
+        "Cat's face",
+        "Whiskers",
+        "Paws",
+        "Sunglasses",
+        "Headphones",
+        "Primary DJ mixer controls"
+      ],
+      "soft_elements": [
+        "Audience",
+        "Distant nightclub details",
+        "Background lighting"
+      ],
+      "background_effect": "Gradual cinematic bokeh"
+    },
+    "rendering": {
+      "style": "Photorealistic commercial photography combined with humorous surrealism",
+      "quality": "Premium advertising quality",
+      "detail": "Extremely high detail",
+      "fur": "Highly detailed realistic individual fur strands",
+      "equipment": "Photorealistic professional DJ hardware",
+      "reflections": "Physically convincing reflections on sunglasses, equipment, and disco ball",
+      "color": "Rich neon color palette with cinematic contrast"
+    },
+    "creative_direction": {
+      "concept": "An exceptionally talented cat has genuinely become a famous electronic-music DJ and is headlining a major nightclub",
+      "tone": "Playful and humorous while remaining visually believable",
+      "priority": "The image should initially read as impressive professional nightclub photography, with the absurdity of the feline DJ providing the visual joke"
+    },
+    "quality_keywords": [
+      "photorealistic",
+      "cinematic",
+      "professional nightclub photography",
+      "highly detailed fur",
+      "realistic DJ equipment",
+      "volumetric lighting",
+      "cinematic depth of field",
+      "neon lighting",
+      "rich reflections",
+      "sharp focal detail",
+      "premium commercial photography",
+      "humorous surrealism",
+      "polished",
+      "no empty space"
+    ]
+  },
+  "image_settings": {
+    "orientation": "square",
+    "transparent_background": false
+  }
+}
