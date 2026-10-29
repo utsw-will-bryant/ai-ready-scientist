@@ -1,0 +1,95 @@
+{
+  "title": "Cell Signaling Pathway: Ligand Binding to Gene Expression",
+  "use_case": "scientific-educational",
+  "asset_type": "General-audience biology infographic",
+  "prompt": "Create a colorful, polished, beginner-friendly scientific illustration that explains a cell-signaling pathway from ligand binding to increased gene expression. Show one large cell in partial cross-section, arranged as a clear left-to-right visual story with five numbered steps and bold arrows that do not cross.",
+  "biological_sequence": [
+    {
+      "step": 1,
+      "action": "A small glowing teal ligand binds to a blue membrane receptor.",
+      "labels": ["Ligand", "R"],
+      "caption": "Binds"
+    },
+    {
+      "step": 2,
+      "action": "The activated receptor R recruits an orange kinase at the inner face of the plasma membrane.",
+      "labels": ["R", "K"],
+      "caption": "Recruits"
+    },
+    {
+      "step": 3,
+      "action": "Kinase K phosphorylates a green transcription factor T. Depict phosphate transfer with a bright yellow circular P symbol or energy burst.",
+      "labels": ["K", "T", "P"],
+      "caption": "Phosphorylates"
+    },
+    {
+      "step": 4,
+      "action": "The phosphorylated transcription factor T moves through a visible nuclear pore into the nucleus.",
+      "labels": ["T", "P", "Nucleus"],
+      "caption": "Enters nucleus"
+    },
+    {
+      "step": 5,
+      "action": "Inside the nucleus, T binds near a highlighted DNA segment labeled Gene G. Show increased gene expression as several glowing pink mRNA transcript icons emerging from the gene.",
+      "labels": ["Gene G", "mRNA", "T", "P"],
+      "caption": "Raises expression"
+    }
+  ],
+  "composition": {
+    "orientation": "wide horizontal, 16:9",
+    "flow_direction": "left to right",
+    "layout": "Ligand outside the cell on the far left; receptor spans the plasma membrane; kinase and transcription factor appear in the cytoplasm; a large violet nucleus occupies the right side.",
+    "numbered_steps": "Place large circular badges numbered 1 through 5 across the top.",
+    "visual_hierarchy": "Make the pathway components, arrows, and step captions easy to scan before smaller contextual labels."
+  },
+  "style": {
+    "medium": "modern editorial scientific illustration with soft 3D biomolecular forms and crisp infographic details",
+    "mood": "luminous, optimistic, clear, approachable",
+    "background": "clean pale blue-to-white background",
+    "typography": "large, clean, dark navy sans-serif labels; use minimal text and high contrast",
+    "color_palette": {
+      "ligand": "glowing teal",
+      "receptor_R": "cobalt blue",
+      "kinase_K": "bright orange",
+      "transcription_factor_T": "emerald green",
+      "phosphate_P": "sunny yellow",
+      "nucleus": "rich violet and purple",
+      "mRNA": "glowing magenta pink",
+      "arrows_and_text": "dark navy with color-coordinated arrows where useful"
+    }
+  },
+  "required_labels": [
+    "Ligand",
+    "R",
+    "K",
+    "T",
+    "P",
+    "Plasma membrane",
+    "Cytoplasm",
+    "Nucleus",
+    "Gene G",
+    "mRNA",
+    "Binds",
+    "Recruits",
+    "Phosphorylates",
+    "Enters nucleus",
+    "Raises expression"
+  ],
+  "accuracy_constraints": [
+    "The ligand must bind on the outside of the cell.",
+    "The receptor must span the plasma membrane.",
+    "Kinase K must be recruited on the cytoplasmic side of receptor R.",
+    "Phosphorylation must occur before T enters the nucleus.",
+    "T must enter the nucleus through a nuclear pore.",
+    "Gene G and mRNA production must appear inside the nucleus.",
+    "Show one continuous pathway only."
+  ],
+  "negative_prompt": "No extra signaling pathways, no unrelated organelles competing for attention, no crossed arrows, no tiny unreadable labels, no dense paragraphs, no medical imagery, no photorealistic human subjects, no logos, no watermark, no misspelled text.",
+  "refinement_controls": {
+    "if_text_is_inaccurate": "Remove all text except single-letter component labels and add labels later in a design tool.",
+    "if_simpler_visual_needed": "Use flat vector-style shapes rather than 3D molecular forms.",
+    "if_more_detail_needed": "Add a clearer receptor activation glow, a more distinct phosphate-transfer arc, and a more prominent nuclear pore.",
+    "if_for_slide_deck": "Leave 15 percent empty margin around all edges and increase label size.",
+    "if_for_print": "Generate at high resolution with sharp typography and strong color contrast."
+  }
+}
