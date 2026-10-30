@@ -1,0 +1,82 @@
+{
+  "image_purpose": "still_life | portrait | landscape | editorial | concept_art",
+  "scene": {
+    "environment": "studio | interior | exterior | on_location",
+    "background": {
+      "material": "painted wall | seamless paper | fabric | natural scenery",
+      "color_tone": "neutral-warm | neutral-cool | vivid | dark",
+      "cleanliness": "clean | textured | aged"
+    },
+    "surface": {
+      "material": "wood | stone | glass | metal",
+      "tone": "light | medium | dark",
+      "finish": "matte | satin | glossy"
+    }
+  },
+  "composition": {
+    "framing": "horizontal | vertical | square | panoramic",
+    "tiers": 1,
+    "arrangement_notes": "grid | staggered | pyramid | asymmetric",
+    "negative_space": "tight | medium | airy",
+    "camera_height": "eye-level | slightly above | slightly below"
+  },
+  "camera": {
+    "focal_length_mm": 35,
+    "aperture_f": 4,
+    "lens_type": "prime | zoom",
+    "focus_strategy": "all subjects sharp | selective",
+    "distance_descriptor": "close | mid | wide"
+  },
+  "lighting": {
+    "type": "natural | strobe | continuous",
+    "direction": "left | right | back | top",
+    "quality": "diffused | soft | hard",
+    "contrast": "low | medium | high",
+    "color_temperature": "neutral | warm | cool",
+    "shadow_behavior": "soft edge | defined"
+  },
+  "color_grading": {
+    "palette_keywords": ["warm beige", "soft teal"],
+    "saturation_level": "muted | natural | vivid",
+    "overall_warmth": "cool | neutral | warm"
+  },
+  "materials_and_texture": {
+    "primary_materials": ["ceramic", "wood"],
+    "surface_finish": "unglazed | glossy | satin",
+    "texture_notes": "fine grit, brushed lines"
+  },
+  "mood": ["calm", "earthy", "inviting"],
+  "imperfections": {
+    "include": true,
+    "types": ["uneven rims", "finger depressions", "tiny nicks"]
+  },
+  "subjects": [
+    {
+      "id": "s1",
+      "category": "vase | bowl | figure | other",
+      "tier": "upper | lower",
+      "pose_or_orientation": "front-facing | 3/4 | profile",
+      "silhouette": "cylindrical | rounded | irregular",
+      "special_features": [],
+      "proportion_notes": "",
+      "size_relative": "small | medium | large",
+      "condition": "handmade irregularities emphasized"
+    }
+  ],
+  "depth_of_field": {
+    "subject_sharpness": "all subjects crisp",
+    "background_softness": "subtle",
+    "bokeh_character": "minimal | creamy"
+  },
+  "post_processing": {
+    "cleanup": "minor dust removal",
+    "authenticity": "retain crafting marks",
+    "grain": "none | subtle"
+  },
+  "output": {
+    "aspect_ratio": "3:2 | 4:3 | 16:9",
+    "resolution": "high",
+    "crop_safety": "no tight crops",
+    "file_style": "photorealistic | painterly"
+  }
+}
