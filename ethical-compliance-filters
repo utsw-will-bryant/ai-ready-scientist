@@ -1,0 +1,16 @@
+{
+  "ethical_and_compliance_filters": {
+  "patient_privacy": {
+    "de_identification_mode": "strict",
+    "block_synthetic_phi": true
+  },
+  "bias_and_diversity": {
+    "skin_tone_scale": "fitzpatrick_type_3",
+    "neutral_representation": true
+  },
+  "copyright_protection": {
+    "block_artist_mimicry": true,
+    "watermark_embedding": "invisible_steganographic"
+  }
+}
+}
