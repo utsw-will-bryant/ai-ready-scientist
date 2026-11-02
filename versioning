@@ -1,0 +1,13 @@
+{
+  "version": "v02",
+  "parent_version": "v01",
+  "reference_version": "v01",
+  "created_at": "2026-11-04T10:30:00-05:00",
+  "change_request": "Lighten the non-anatomical background from dark gray to white. No other changes.",
+  "settings_override": {
+    "seed": 482913,
+    "variation_strength": "low"
+  },
+  "output_file": "cardiac-anatomy-v02-white-background.png",
+  "review_status": "pending-SME-review"
+}
