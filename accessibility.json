@@ -1,0 +1,55 @@
+{
+  "accessibility": {
+    "purpose": "Explain how insulin helps glucose enter a body cell.",
+    "audience": "Adult learners with introductory health-science knowledge",
+
+    "alt_text": {
+      "short": "A diagram showing insulin helping glucose move from the bloodstream into a body cell.",
+      "long": "Bloodstream glucose is shown outside a body cell. Insulin binds to a receptor on the cell surface, which allows glucose to enter the cell and be used for energy."
+    },
+
+    "visual_clarity": {
+      "minimum_font_size_pt": 18,
+      "font_style": "clean sans-serif",
+      "plain_language": true,
+      "avoid_text_in_image_when_possible": true,
+      "maximum_labels_per_region": 4
+    },
+
+    "color_and_contrast": {
+      "minimum_contrast_ratio": "4.5:1",
+      "do_not_rely_on_color_alone": true,
+      "redundant_encoding": ["color", "label", "shape", "pattern"],
+      "color_blind_safe_palette": true,
+      "avoid_problematic_pairings": ["red-green", "blue-purple"]
+    },
+
+    "diagram_structure": {
+      "reading_order": "left_to_right",
+      "visual_hierarchy": "title, key message, numbered steps, supporting labels",
+      "numbered_sequence": true,
+      "group_related_elements": true,
+      "include_legend": true,
+      "avoid_overlapping_labels": true
+    },
+
+    "cognitive_accessibility": {
+      "one_primary_message": "Insulin enables cells to take up glucose.",
+      "limit_decorative_elements": true,
+      "avoid_visual_clutter": true,
+      "use_familiar_symbols": true,
+      "define_acronyms_on_first_use": true
+    },
+
+    "motion": {
+      "animation_allowed": false,
+      "avoid_flashing": true,
+      "respect_reduced_motion_preference": true
+    },
+
+    "content_warnings": {
+      "contains_blood_or_anatomy": false,
+      "contains_flashing_or_strobing": false
+    }
+  }
+}
