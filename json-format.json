@@ -1,0 +1,7 @@
+{
+  "text": "string",
+  "number": 2,
+  "boolean": false,
+  "empty": null,
+  "array": [2, 6.4, 100]
+}
